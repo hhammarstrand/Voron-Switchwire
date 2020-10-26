@@ -10,7 +10,7 @@ M109 S[first_layer_temperature] ; wait for extruder temp
 G1 Y-3.0 Z0.5 F500.0 ; prepare for intro line
 G92 E0.0
 ;SET_LED LED=fysetc_mini12864 RED=1 GREEN=0 BLUE=0
-SIREN
+BLINK
 G1 X10.0 E1.0 F1000.0 ; intro line
 G1 X120.0 E20.0 F1000.0 ; intro line
 G92 E0.0
